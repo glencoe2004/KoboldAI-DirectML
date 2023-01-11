@@ -7,7 +7,7 @@ dependencies:
   - colorama
   - flask-socketio
   - flask-session
-  - pytorch=1.11.*
+  - pytorch=1.13.*
   - python=3.8.*
   - cudatoolkit=11.1
   - eventlet
@@ -41,3 +41,5 @@ dependencies:
     - ftfy
     - pydub
     - diffusers
+    - torchvision==0.14.0
+    - torch-directml

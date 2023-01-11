@@ -3,7 +3,7 @@ huggingface_hub>=0.10.1
 Flask
 Flask-SocketIO
 requests
-torch >= 1.9, < 1.13
+torch==1.13
 flask-cloudflared
 flask-ngrok
 eventlet
@@ -29,3 +29,5 @@ bitsandbytes
 ftfy
 pydub
 safetensors
+torchvision==0.14.0 
+torch-directml
